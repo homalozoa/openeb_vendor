@@ -1,4 +1,8 @@
 # openeb_vendor
+[![License](https://img.shields.io/badge/License-Apache%202.0-orange)](https://choosealicense.com/licenses/apache-2.0/)
+[![foxy](https://github.com/homalozoa/openeb_vendor/actions/workflows/foxy.yaml/badge.svg)](https://github.com/homalozoa/openeb_vendor/actions/workflows/foxy.yaml)
+[![galactic](https://github.com/homalozoa/openeb_vendor/actions/workflows/galactic.yaml/badge.svg)](https://github.com/homalozoa/openeb_vendor/actions/workflows/galactic.yaml)
+[![rolling](https://github.com/homalozoa/openeb_vendor/actions/workflows/rolling.yaml/badge.svg)](https://github.com/homalozoa/openeb_vendor/actions/workflows/rolling.yaml)
 
 ## Introduction
 
