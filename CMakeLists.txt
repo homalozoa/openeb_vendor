@@ -8,8 +8,8 @@ endif()
 find_package(ament_cmake REQUIRED)
 
 set(EXTPRJ_NAME openeb)
-set(PKG_VER "2.3.2")
-set(MD5SUM 3ef3979c22643e0f3f6ce08396d1b137)
+set(PKG_VER "3.0.2")
+set(MD5SUM 42146e8de138e3dcfe25f0469a67f9c2)
 
 include(ExternalProject)
 
@@ -22,6 +22,7 @@ externalproject_add(
       -DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE}
       -DCMAKE_INSTALL_PREFIX=${CMAKE_INSTALL_PREFIX}
       -DCOMPILE_PYTHON3_BINDINGS=OFF
+      -DUDEV_RULES_SYSTEM_INSTALL=OFF
       -DBUILD_TESTING=OFF
   INSTALL_DIR ${CMAKE_INSTALL_PREFIX}
   TIMEOUT 1200
